@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #131a20;
+    color: #fff;
+} 
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movie_btn{
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    transition: all 0.3s linear;
+    display: inline-block;
+}
+.movie_btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+.search{
+    padding: 10px ;
+    border:none ;
+    border-radius: 20px;
+    outline: none;
+    background-color: #131a20;
+}
+.menu_item:nth-child(1):hover{
+    background-color: hsla(27, 66%, 51%, 0.5);
+}
+.menu_item:nth-child(2):hover{
+    background-color: hsla(148, 35%, 51%, 0.527);
+}
+.menu_item:nth-child(3):hover{
+    background-color: hsla(211, 55%, 54%, 0.521);
+}
+.menu_item:nth-child(4):hover{
+    background-color: hsla(0, 59%, 44%, 0.527);
+}
+.menu_item:nth-child(5):hover{
+    background-color: hsla(259, 67%, 48%, 0.425);
+}
+.menu_item:hover{
+    transition: all 0.5s linear;
+}
+.menu_link{
+    text-transform: uppercase;
+    font-size: 14px;
+}
